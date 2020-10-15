@@ -1,4 +1,4 @@
-#Morse Decoder using PIL
+Morse Code Decoder using PIL
 
 This script takes an specially crafted image, which should have an specific widht and height (25x3, respectively; it can also work with larger height but using the same width), it must include morse code in its pixels, and only using two colors. The Python PIL library will be used to extract the morse code from the image, and then with some string manipulation we will be able to decode the morse code into ASCII characters.
 
